@@ -52,21 +52,21 @@ ansible all -m ping -i hosts
  ###  Ansible Pod Created Successfully  
 > This screenshot shows the successful creation of the Ansible Pod inside the Kubernetes cluster using `kubectl apply -f`.
 
-![Ansible Pod Created](https://github.com/shreya-singh27/ansible-inside-k8s-pod/assets/XXXXXX/ansible-pod-created.png)
+![Ansible Pod Created](screenshots/ansible-pod-created.png)
 
 ---
 
 ###  Local Ping Test (Inside Pod)  
 > This confirms that Ansible can successfully ping the localhost using `ansible all -m ping -c local`.
 
-![Local Ping Test](https://github.com/shreya-singh27/ansible-inside-k8s-pod/assets/XXXXXX/ansible-local-ping-success.png)
+![Local Ping Test](screenshots/ansible-local-ping-success.png)
 
 ---
 
 ###  Remote Ping Test (Target Container)  
 > This screenshot shows Ansible pinging a remote container target defined in the `hosts` file using SSH.
 
-![Remote Ping Test](https://github.com/shreya-singh27/ansible-inside-k8s-pod/assets/XXXXXX/ansible-remote-ping-success.png)
+![Remote Ping Test](screenshots/ansible-remote-ping-success.png)
 
 
 - Conclusion
